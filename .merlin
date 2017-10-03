@@ -1,0 +1,4 @@
+FLG -w +a-4-40..42-44-45-48-58 -strict-sequence -strict-formats
+PKG devkit extlib tensorflow re2
+S .
+B _build/.
