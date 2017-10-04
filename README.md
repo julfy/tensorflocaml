@@ -10,6 +10,7 @@ Pre-trained model (models/final_.pb) is provided for demonstration purpose. Trai
 Note that you will have to download and unpack the original dataset to '/data' if you want to play with preprocessor.
 
 `dostuff.ml` contains data preprocessor and tensorflow graph usage demo in `predict : string -> unit` function
+
 `main.py` should be run using python3.
   Really important functions are `convert (inp,out)` and `save_model_as_graph(model,dir,name)` which show a pretty simple way to export keras model as a `.pb` file.
   Note that input and output node names are required to correctly setup the model on OCaml side.
